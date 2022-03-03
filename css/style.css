@@ -24,6 +24,10 @@ html {
 
 /* PRODUCT    */
 
+.row {
+    margin-bottom: 2em;
+}
+
 .product {
     position: relative;
     display: inline-block;
@@ -55,22 +59,24 @@ img {
 /* LABELS */
 
 .label {
-    display: block;
     position: absolute;
-    bottom: 2.5em;
+    left: 0;
+    bottom: 2em;
     font-size: .55em;
     font-weight: 700;
-    padding: .5em;
     color: #ffffff;
 }
 
-.label.discount {
+.discount {
     background-color: #fd2033;
+    position: relative;
+    padding: .5em;
 }
 
-.label.sostenibilità {
+.sostenibilità {
     background-color: #317e4b;
-    margin-left: 3.6em;
+    position: relative;
+    padding: .5em;
 }
 
 .heart {
