@@ -5,3 +5,104 @@
     margin: 0;
     padding: 0;
 }
+
+
+html {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+/* COMMON */
+
+
+.container {
+    position: relative;
+    width: 85%;
+    margin: 30px auto;
+}
+
+
+/* PRODUCT    */
+
+.product {
+    position: relative;
+    display: inline-block;
+    width: 31%;
+    margin: .6em;
+}
+
+.frame {
+    position: relative;
+}
+
+
+/* IMMAGINI */
+
+img {
+    width: 100%;
+}
+
+.main-img {
+    position: absolute;
+}
+
+.main-img:hover {
+    display: none;
+}
+
+
+
+/* LABELS */
+
+.label {
+    display: block;
+    position: absolute;
+    bottom: 2.5em;
+    font-size: .55em;
+    font-weight: 700;
+    padding: .5em;
+    color: #ffffff;
+}
+
+.label.discount {
+    background-color: #fd2033;
+}
+
+.label.sostenibilità {
+    background-color: #317e4b;
+    margin-left: 3.6em;
+}
+
+.heart {
+    position: absolute;
+    right: 0;
+    top: 1em;
+    padding: .6em .9em;
+    background-color: #ffffff;
+}
+
+.heart:hover {
+    color: #fd2033;
+}
+
+
+/* PRODUCT INFO */
+
+span.brand {
+    font-size: .7em;
+}
+
+span.model {
+    font-weight: 700;
+}
+
+span.discount-price {
+    font-size: .85em;
+    font-weight: 700;
+    color: #fd2033;
+}
+
+span.original-price {
+    font-size: .85em;
+    text-decoration: line-through;
+}
