@@ -1,84 +1,59 @@
 /* RESET */
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
-
+/* HTML */
 html {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Source Sans Pro', sans-serif;
 }
-
-
 /* COMMON */
-
-
 .container {
     position: relative;
     width: 85%;
     margin: 30px auto;
 }
-
-
 /* PRODUCT    */
-
-.row {
-    margin-bottom: 2em;
-}
-
 .product {
     position: relative;
     display: inline-block;
-    width: 31%;
-    margin: .6em;
+    width: 30%;
+    min-width: 300px;
+    margin: 0 .6em;
 }
-
 .frame {
     position: relative;
 }
-
-
 /* IMMAGINI */
-
 img {
     width: 100%;
 }
-
 .main-img {
     position: absolute;
 }
-
 .main-img:hover {
     display: none;
 }
-
-
-
 /* LABELS */
-
 .label {
     position: absolute;
     left: 0;
     bottom: 2em;
-    font-size: .55em;
+    font-size: .65em;
     font-weight: 700;
     color: #ffffff;
 }
-
 .discount {
+    position: relative;
+    padding: .5em;
     background-color: #fd2033;
-    position: relative;
-    padding: .5em;
 }
-
 .sostenibilità {
-    background-color: #317e4b;
     position: relative;
     padding: .5em;
+    background-color: #317e4b;
 }
-
 .heart {
     position: absolute;
     right: 0;
@@ -86,29 +61,27 @@ img {
     padding: .6em .9em;
     background-color: #ffffff;
 }
-
 .heart:hover {
     color: #fd2033;
 }
-
-
 /* PRODUCT INFO */
-
+.info {
+    margin-bottom: 2em;
+}
 span.brand {
     font-size: .7em;
 }
-
 span.model {
+    min-width: 100%;
+    font-size: .85em;
     font-weight: 700;
 }
-
 span.discount-price {
-    font-size: .85em;
+    font-size: .8em;
     font-weight: 700;
     color: #fd2033;
 }
-
 span.original-price {
-    font-size: .85em;
+    font-size: .8em;
     text-decoration: line-through;
 }
