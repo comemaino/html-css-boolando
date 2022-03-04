@@ -4,18 +4,21 @@
     margin: 0;
     padding: 0;
 }
+
 /* HTML */
 html {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 100%;
 }
+
 /* COMMON */
 .container {
     position: relative;
     width: 85%;
     margin: 30px auto;
 }
-/* PRODUCT    */
+
+/* PRODUCT */
 .product {
     position: relative;
     display: inline-block;
@@ -23,19 +26,24 @@ html {
     min-width: 300px;
     margin: 0 .6em;
 }
+
 /* IMMAGINI */
 .product img {
     width: 100%;
 }
+
 .frame {
     position: relative;
 }
+
 .main-img {
     position: absolute;
 }
+
 .frame:hover .main-img {
     display: none;
 }
+
 /* LABELS */
 .label {
     position: absolute;
@@ -45,14 +53,17 @@ html {
     font-weight: 700;
     color: #ffffff;
 }
+
 .label .discount {
     padding: .5em;
     background-color: #fd2033;
 }
-.label .sostenibilità {
+
+.label .sustainability {
     padding: .5em;
     background-color: #317e4b;
 }
+
 .heart {
     position: absolute;
     right: 0;
@@ -61,26 +72,32 @@ html {
     font-size: 1.3em;
     background-color: #ffffff;
 }
+
 .heart:hover {
     color: #fd2033;
 }
+
 /* PRODUCT INFO */
 .product .info {
     margin-bottom: 2em;
 }
+
 span.brand {
     font-size: .7em;
 }
+
 span.model {
     min-width: 100%;
     font-size: 1em;
     font-weight: 700;
 }
+
 span.discount-price {
     font-size: .8em;
     font-weight: 700;
     color: #fd2033;
 }
+
 span.original-price {
     font-size: .8em;
     text-decoration: line-through;
